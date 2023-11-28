@@ -1,6 +1,6 @@
 @media screen and (max-width: 450px) {
   .big-box {
-    width: 85%;
+    width: 90%;
   }
 
   .input-town {
@@ -18,7 +18,7 @@
   }
 
   .text-town {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .temp-min,
