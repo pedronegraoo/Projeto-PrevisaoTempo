@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Open+Sans:wght@300;500;700&family=Outfit:wght@400;700&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/cloud-medio.jpg") no-repeat center;
+  background-size: cover;
+}
+body .big-box {
+  width: 450px;
+  height: 330px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8980392157);
+  border-radius: 25px;
+  opacity: 0.8;
+}
+body .big-box .input-town {
+  width: 355px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  outline: none;
+  background-color: rgba(124, 124, 124, 0.168627451);
+  text-transform: capitalize;
+}
+body .big-box .btn-find {
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  border: none;
+  background-color: rgba(124, 124, 124, 0.168627451);
+  cursor: pointer;
+  float: right;
+}
+body .big-box .btn-find i {
+  font-size: 25px;
+  color: #000;
+}
+body .big-box .medium-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 30px;
+}
+body .big-box .medium-box .text-town {
+  font-size: 28px;
+  font-weight: 400;
+}
+body .big-box .medium-box .temps {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+body .big-box .medium-box .temp-min {
+  color: rgba(59, 59, 216, 0.8980392157);
+  font-size: 18px;
+}
+body .big-box .medium-box .temp-max {
+  color: rgba(233, 77, 77, 0.8549019608);
+  font-size: 18px;
+}
+body .big-box .medium-box .temp {
+  font-size: 24px;
+  padding-inline: 20px;
+}
+body .big-box .medium-box .umidade {
+  margin-top: 20px;
+}
+body .big-box .medium-box .small-box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+body .big-box .medium-box .small-box .text-icon {
+  margin-left: 15px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 450px) {
+  body .big-box {
+    width: 90%;
+  }
+  body .big-box .input-town {
+    width: 82%;
+    font-size: 16px;
+  }
+  body .big-box .btn-find {
+    width: 40px;
+    height: 40px;
+  }
+  body .big-box .btn-find i {
+    font-size: 22px;
+  }
+  body .big-box .medium-box .text-town {
+    font-size: 22px;
+  }
+  body .big-box .medium-box .temp-min,
+  body .big-box .medium-box .temp-max {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 382px) {
+  body .big-box .medium-box .text-town {
+    font-size: 22px;
+  }
+  body .big-box .medium-box .temp {
+    font-size: 22px;
+  }
+  body .big-box .medium-box .temp-min,
+  body .big-box .medium-box .temp-max,
+  body .big-box .medium-box .umidade {
+    font-size: 15px;
+  }
+  body .big-box .medium-box .small-box .text-icon {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

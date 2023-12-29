@@ -1,0 +1,60 @@
+@media screen and (max-width: 450px) {
+  body {
+    .big-box {
+      width: 90%;
+
+      .input-town {
+        width: 82%;
+        font-size: 16px;
+      }
+
+      .btn-find {
+        width: 40px;
+        height: 40px;
+
+        i {
+          font-size: 22px;
+        }
+      }
+
+      .medium-box {
+        .text-town {
+          font-size: 22px;
+        }
+
+        .temp-min,
+        .temp-max {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 382px) {
+  body {
+    .big-box {
+      .medium-box {
+        .text-town {
+          font-size: 22px;
+        }
+
+        .temp {
+          font-size: 22px;
+        }
+
+        .temp-min,
+        .temp-max,
+        .umidade {
+          font-size: 15px;
+        }
+
+        .small-box {
+          .text-icon {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
